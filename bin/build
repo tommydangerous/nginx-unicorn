@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t dangerous/nginx-unicorn .
+docker push dangerous/nginx-unicorn
